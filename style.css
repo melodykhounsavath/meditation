@@ -35,7 +35,7 @@
   top: 0%;
   left: 0%;
   width: 100%;
-  z-index: 0;
+  z-index: -10;
 }
 
 .time-display {
@@ -43,4 +43,22 @@
   bottom: 10%;
   color: white;
   font-size: 50px;
+}
+
+.time-select button,
+.sound-picker button {
+  color: white;
+  width: 30%;
+  height: 10%;
+  background: none;
+  border: 2px solid white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+
+.time-select button:hover {
+  color: black;
+  background: white;
 }
