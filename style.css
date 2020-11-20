@@ -62,3 +62,22 @@
   color: black;
   background: white;
 }
+
+.sound-picker button {
+  border: none;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  padding: 30px;
+}
+
+.sound-picker button:nth-child(1) {
+  background: lightblue;
+}
+.sound-picker button:nth-child(2) {
+  background: lightcoral;
+}
+
+.sound-picker img {
+  height: 100%;
+}
